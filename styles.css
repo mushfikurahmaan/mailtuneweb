@@ -1,0 +1,67 @@
+/* Import Satoshi font */
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap');
+
+body {
+    font-family: 'Satoshi', sans-serif;
+    background-color: #000000;
+    color: white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #A15DF8;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8a4fd3;
+}
+
+/* Custom styles for the dashboard */
+.shadow-sm {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.transition {
+    transition: all 0.2s ease;
+}
+
+/* Focus styles for inputs */
+input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(161, 93, 248, 0.3);
+    border-color: #A15DF8;
+}
+
+/* Custom border styles */
+.border-primary {
+    border-color: #A15DF8;
+}
+
+.border-gray-800 {
+    border-color: #2d2d2d;
+}
+
+/* Button hover effects */
+button.bg-primary:hover, 
+a.bg-primary:hover {
+    background-color: #9048e0;
+}
+
+/* Custom hover effects for links */
+a.text-primary:hover {
+    color: #b77ff9;
+}
+
+/* Custom text colors */
+.text-primary {
+    color: #A15DF8;
+} 
